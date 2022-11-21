@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "92633830307",
+    "project_id": "justdo-d2ab5",
+    "storage_bucket": "justdo-d2ab5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92633830307:android:0e2dbb9b9368494b00c016",
+        "android_client_info": {
+          "package_name": "com.example.justdo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92633830307-ba2p2c5ss2thqg3sl492mflcsmr3i5ps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.justdo",
+            "certificate_hash": "923c07a69c4a0183e8dffd0a9456c2b278d471b5"
+          }
+        },
+        {
+          "client_id": "92633830307-d63bttqj16ann68mqjj7mbq1qk6avii2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN6RCFcN0AHfF7ZWxOuoS6Lg6gOPL3OU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92633830307-d63bttqj16ann68mqjj7mbq1qk6avii2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

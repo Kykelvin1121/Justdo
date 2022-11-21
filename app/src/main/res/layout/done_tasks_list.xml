@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="10dp"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_gradient"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="10dp"
+        android:layout_gravity="center">
+
+
+        <TextView
+            android:id="@+id/done_list_tasks"
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="15dp"
+            android:layout_marginStart="6dp"
+            android:background="@android:color/transparent"
+            android:ellipsize="end"
+            android:maxLength="16"
+            android:text="Generate Dodo application"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/done_list_date"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/done_list_tasks"
+            android:layout_marginVertical="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@android:color/transparent"
+            android:text="dd/mm/yyyy"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/Tick"
+            android:layout_width="85dp"
+            android:layout_height="58dp"
+            android:layout_alignEnd="@+id/done_list_date"
+            android:layout_marginLeft="0dp"
+            android:layout_marginEnd="-90dp"
+            android:padding="6dp"
+            android:src="@drawable/ic_baseline_check_circle" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
